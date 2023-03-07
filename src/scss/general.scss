@@ -14,6 +14,37 @@ p {
   color: $white;
 }
 
+h1 {
+  font-family: Roboto;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  color: $white;
+}
+
+h2 {
+
+  font-family: Roboto;
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  color: $white;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: $white;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

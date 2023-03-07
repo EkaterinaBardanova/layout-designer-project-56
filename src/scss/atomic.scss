@@ -31,7 +31,11 @@
 }
 
 .text-small {
-  font-size: 12px;
+  font-size: 13px;
+}
+
+.line-height1 {
+  line-height: 1em;
 }
 
 .bold {
@@ -48,4 +52,12 @@
 
 .nowrap {
   white-space: nowrap;
+}
+
+.mr-top40 {
+  margin-top: 40px;
+}
+
+.mr-top64 {
+  margin-top: 64px;
 }
