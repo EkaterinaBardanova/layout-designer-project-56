@@ -463,6 +463,10 @@ nav a:hover {
   text-decoration: none;
 }
 
+.price-text {
+  height: 57px;
+}
+
 .img-1 {
   background-image: url("../images/subscribe_1.png");
   background-repeat: no-repeat;
@@ -487,6 +491,7 @@ nav a:hover {
 @media (max-width: 414px) {
   .pricing {
     width: 414px;
+    height: 2220px;
   }
   .pricing-items-wrapper {
     -webkit-box-orient: vertical;
