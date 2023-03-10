@@ -134,6 +134,10 @@ h3 {
   white-space: nowrap;
 }
 
+.mr-top16 {
+  margin-top: 16px;
+}
+
 .mr-top40 {
   margin-top: 40px;
 }
@@ -470,21 +474,18 @@ nav a:hover {
 .img-1 {
   background-image: url("../images/subscribe_1.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
 .img-2 {
   background-image: url("../images/subscribe_2.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
 .img-3 {
   background-image: url("../images/subscribe_3.png");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
 }
 
@@ -507,6 +508,9 @@ nav a:hover {
   }
   .pricing-item {
     width: 374px;
-    padding: 16px 24px 0;
+    padding: 0;
+  }
+  .btn {
+    width: 326px;
   }
 }
