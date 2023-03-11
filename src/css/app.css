@@ -477,21 +477,18 @@ nav a:hover {
   background-image: url("../images/subscribe_1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 .img-2 {
   background-image: url("../images/subscribe_2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 .img-3 {
   background-image: url("../images/subscribe_3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
 }
 
 @media (max-width: 414px) {
