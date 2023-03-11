@@ -134,10 +134,6 @@ h3 {
   white-space: nowrap;
 }
 
-.mr-top16 {
-  margin-top: 16px;
-}
-
 .mr-top40 {
   margin-top: 40px;
 }
@@ -391,6 +387,7 @@ nav a:hover {
 }
 
 .pricing-wrapper {
+  max-width: 1240px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,6 +406,7 @@ nav a:hover {
 }
 
 .pricing-items-wrapper {
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -416,6 +414,7 @@ nav a:hover {
 }
 
 .pricing-item {
+  width: 366px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -428,9 +427,11 @@ nav a:hover {
           align-items: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 368px;
-  padding: 24px 24px 0;
   border-radius: 1rem;
+}
+
+.pricing-header {
+  margin-top: 24px;
 }
 
 .price {
@@ -456,7 +457,7 @@ nav a:hover {
           justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 100%;
+  width: 318px;
   height: 66px;
   border: 1px solid #fff;
   border-radius: 5px;
@@ -469,24 +470,28 @@ nav a:hover {
 
 .price-text {
   height: 57px;
+  width: 318px;
 }
 
 .img-1 {
   background-image: url("../images/subscribe_1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .img-2 {
   background-image: url("../images/subscribe_2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .img-3 {
   background-image: url("../images/subscribe_3.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 414px) {
@@ -510,7 +515,13 @@ nav a:hover {
     width: 374px;
     padding: 0;
   }
+  .pricing-header {
+    margin-top: 16px;
+  }
   .btn {
     width: 326px;
+  }
+  .price-text {
+    width: 324px;
   }
 }
