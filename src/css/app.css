@@ -642,6 +642,9 @@ nav a:hover {
   .news-body {
     width: 374px;
   }
+  .news-header {
+    font-size: 16px;
+  }
   .reverse {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
