@@ -54,6 +54,7 @@ h3 {
 h4 {
   font-family: Roboto;
   font-size: 18px;
+  line-height: 24px;
   font-weight: 700;
   margin: 0;
   text-transform: uppercase;
@@ -781,4 +782,23 @@ nav a:hover {
   display: flex;
   gap: 16px;
   margin: 42px 0 49px;
+}
+
+.low-menu p {
+  color: #e0e0e0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer-link {
+  font-size: 16px;
+  color: #e0e0e0;
+  text-decoration: none;
 }
