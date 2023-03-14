@@ -803,3 +803,29 @@ li {
   text-decoration: none;
   line-height: 24px;
 }
+
+@media (max-width: 414px) {
+  .footer-wrapper {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .contacts-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 30px;
+  }
+  .footer-line {
+    top: 686px;
+  }
+  .low-menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
