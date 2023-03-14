@@ -233,6 +233,10 @@ h4 {
   margin-bottom: 24px;
 }
 
+.mr-bot16 {
+  margin-bottom: 16px;
+}
+
 .mr-bot15 {
   margin-bottom: 15px;
 }
@@ -255,6 +259,14 @@ h4 {
 
 .dark-grey {
   color: #cacaca;
+}
+
+.bg-purple {
+  background-color: #5328a1;
+}
+
+.bg-red {
+  background-color: #95390c;
 }
 
 .header {
@@ -828,4 +840,57 @@ li {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+.artist-banner {
+  width: 100%;
+  height: 713px;
+  background-image: url("../images/artist.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.artist-banner-section {
+  padding: 200px 120px 0px;
+}
+
+.artist-banner-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.btn-artist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 200px;
+  height: 62px;
+  padding: 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  padding-left: 31px;
+}
+
+.icon-btn {
+  width: 20px;
+  height: 20px;
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
