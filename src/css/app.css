@@ -51,6 +51,15 @@ h3 {
   color: #fff;
 }
 
+h4 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 .wrapper {
   width: 1240px;
   display: -webkit-box;
@@ -188,14 +197,6 @@ h3 {
   text-transform: capitalize;
 }
 
-.white {
-  color: #fff;
-}
-
-.dark-grey {
-  color: #cacaca;
-}
-
 .nowrap {
   white-space: nowrap;
 }
@@ -246,6 +247,14 @@ h3 {
 
 .orange {
   color: #f89202;
+}
+
+.white {
+  color: #fff;
+}
+
+.dark-grey {
+  color: #cacaca;
 }
 
 .header {
@@ -704,4 +713,72 @@ nav a:hover {
   .img-app {
     margin: 0;
   }
+}
+.footer {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.footer-wrapper {
+  width: 1240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 62px 20px 0;
+}
+
+.contacts-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 72px;
+}
+
+.menu-contacts {
+  width: 270px;
+}
+
+.menu-contacts p {
+  color: #e0e0e0;
+}
+
+.footer-icons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 24px;
+}
+
+.footer-line {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 272px;
+  left: 0;
+  background-color: #fff;
+}
+
+.low-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 16px;
+  margin: 42px 0 49px;
 }
