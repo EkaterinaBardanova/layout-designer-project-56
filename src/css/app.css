@@ -894,3 +894,15 @@ li {
   -webkit-filter: invert(1);
           filter: invert(1);
 }
+
+@media (max-width: 414px) {
+  .artist-banner-section {
+    padding: 55px 20px 0;
+  }
+  .artist-banner-buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
