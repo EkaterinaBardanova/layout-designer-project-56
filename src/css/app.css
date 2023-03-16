@@ -1042,3 +1042,17 @@ li {
   gap: 18px;
   margin-top: 25px;
 }
+
+.discography-item h4 {
+  text-transform: capitalize;
+}
+
+@media (max-width: 414px) {
+  .discography-item {
+    width: 137px;
+  }
+  .discography-item img {
+    width: 137px;
+    height: 137px;
+  }
+}
