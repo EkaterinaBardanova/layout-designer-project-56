@@ -983,3 +983,23 @@ li {
 .time {
   margin-top: 18px;
 }
+
+@media (max-width: 414px) {
+  .wrapper-artist {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .songs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 25px;
+  }
+  .song {
+    width: 100%;
+  }
+}
