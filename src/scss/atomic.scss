@@ -46,8 +46,8 @@
   text-transform: uppercase;
 }
 
-.white {
-  color: $white;
+.capitalize {
+  text-transform: capitalize;
 }
 
 .nowrap {
@@ -58,6 +58,78 @@
   margin-top: 40px;
 }
 
+.mr-top16 {
+  margin-top: 16px;
+}
+
+.mr-bot100 {
+  margin-bottom: 100px;
+}
+
+.mr-bot65 {
+  margin-bottom: 65px;
+}
+
+.mr-bot64 {
+  margin-bottom: 64px;
+}
+
+.mr-bot48 {
+  margin-bottom: 48px;
+}
+
+.mr-bot30 {
+  margin-bottom: 30px;
+}
+
+.mr-bot24 {
+  margin-bottom: 24px;
+}
+
+.mr-bot16 {
+  margin-bottom: 16px;
+}
+
+.mr-bot15 {
+  margin-bottom: 15px;
+}
+
 .mr-top64 {
   margin-top: 64px;
+}
+
+.mr-left15 {
+  margin-left: 15px;
+}
+
+.w-1200 {
+  width: 1200px;
+}
+
+.orange {
+  color: $orange;
+}
+
+.white {
+  color: $white;
+}
+
+.dark-grey {
+  color: $dark-grey;
+}
+
+.grey {
+  color: $grey;
+}
+
+.bg-purple {
+  background-color: $purple;
+}
+
+.bg-red {
+  background-color: $red;
+}
+
+.flex {
+  display: flex;
 }

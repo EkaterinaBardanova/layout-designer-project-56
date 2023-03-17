@@ -28,7 +28,7 @@
   height: 50px;
   box-sizing: border-box;
   padding: 16px 20px 18px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
   border: 2px solid $grey;
   border-radius: 3px;
   background: transparent;
@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 17px;
+  padding-top: 16px;
 }
 
 .btn-green {
@@ -50,47 +50,8 @@
 }
 
 @media (max-width: 414px) {
-  h1 {
-    font-size: 30px;
-    line-height: 45px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
-  h2 {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-
   .banner {
     height: 100%;
-  }
-
-  .header {
-    width: fit-content;
-    height: fit-content;
-    padding: 27px 20px 0;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 18px;
-  }
-
-  .header-container {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 17px;
-  }
-
-  .header-menu {
-    flex-direction: column;
-    gap: 0;
-    padding-left: 0;
-  }
-
-  .header-search {
-    width: 374px;
   }
 
   .banner-section {
@@ -105,7 +66,6 @@
   .input-wrapper {
     flex-direction: column;
     gap: 0;
-    padding-top: 17px;
   }
 
   .input {

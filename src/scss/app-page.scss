@@ -1,0 +1,43 @@
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app-content {
+  display: flex;
+}
+
+.app-body {
+  margin-right: 144px;
+}
+
+.img-app {
+  width: 333px;
+  height: 278px;
+  margin-right: 123px;
+}
+
+.btn-app {
+  width: 131px;
+  height: 53px;
+  background-color: $red;
+  border: none;
+  border-radius: 32px;
+}
+
+@media (max-width: 414px) {
+  .app-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .app-body {
+    margin-right: 0;
+  }
+
+  .img-app {
+    margin: 0;
+  }
+}

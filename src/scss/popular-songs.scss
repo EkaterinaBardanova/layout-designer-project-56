@@ -1,0 +1,50 @@
+.popular-songs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-song {
+  width: 55px;
+  height: 55px;
+}
+
+.songs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.song-wrap {
+  display: flex;
+  gap: 48px;
+}
+
+.song {
+  display: flex;
+  width: 552px;
+  justify-content: space-between;
+}
+
+.time {
+  margin-top: 18px;
+}
+
+@media (max-width: 414px) {
+  .wrapper-artist {
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .song-wrap {
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  .song {
+    width: 100%;
+  }
+}
